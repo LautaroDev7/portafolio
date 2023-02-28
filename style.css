@@ -77,7 +77,7 @@ h1 {
 /*--------------------SOBRE MI----------------------------*/
 
 .sobre-mi{
-    height: 500px;
+    min-height: 500px;
     padding: 10px;
 }
 
