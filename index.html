@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link rel="icon" href="briefcase-fill.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--------GOOGLE FONT-------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!------------------ Barra de navegacion------------------------------------------>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#"><img src="briefcase-fill.svg" width="50" alt=" logo pagina web"></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#certificados">Certificados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--------------------- SECCION PRINCIPAL  O HERO-------------------------->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="perfil" src="foto.jpg" alt="Foto perfil de Lautaro Garay">
+        <h1>Hola, Soy Lautaro Garay </h1>
+        <h2>Desarrollador Salesforce y de sitios web </h2>
+      </div>
+    </section>
+    <!----------------------SOBRE MI------------------------------>
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Lautaro Garay</h2>
+        <p class="seccion-texto">Soy estudiante de primer año de la carrera 'Tecnicatura superior en desarrollo de software',
+          simultaneamente desarrollo mi aprendizaje de manera autodidacta realizando cursos y proyectos
+          personales con la intención de ampliar mis conocimientos y mejorar mis herramientas a la hora
+          del desarrollo. Tengo finalizados los cursos de desarrollo web profesional de la plataforma de
+          udemy y los de desarrollador salesforce principiante e intermedio de la misma plataforma. Tambien 
+          realice el curso de argentina programa 4.0 , actualmente estoy por comenzar la segunda etapa del mismo enfocada en el lenguaje Java </p>
+      </div>
+    </section>
+    <!---------------EXPERIENCIA---------------------------->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+                 <!----_DESARROLLO WEB---->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> Estas son mis aptitudes en cuanto a Desarrollo web </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JAVASCRIPT</span>
+              <span class="badge text-bg-primary">BOOTSTRAP</span>
+              <span class="badge text-bg-primary">SASS</span>
+            </div>
+          </div>
+                  <!----SALESFORCE---->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">SALESFORCE</p>
+            <p> Estas son mis aptitudes en cuanto al desarrollo en Salesforce </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">APEX</span>
+              <span class="badge text-bg-primary">TRIGGERS</span>
+              <span class="badge text-bg-primary">SOQL</span>
+              <span class="badge text-bg-primary">SOSS</span>
+            </div>
+          </div>
+                <!----_ESTUDIANTE---->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">ESTUDIOS</p>
+            <p> Mis Certificados </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Desarrollo web profesional</span>
+              <span class="badge text-bg-primary">Desarrollador salesforce principiante</span>
+              <span class="badge text-bg-primary">Desarrollador salesforce intermedio</span>
+              <span class="badge text-bg-primary">Argentina Programa 4.0 etapa 1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!----------------Certificados------------------------------------------>
+        <section id="certificados" class="proyectos-recientes seccion-clara d-flex flex-column">
+          <h2 class="seccion-titulo texto-negro "> Mis certificados</h2>
+          <!------------GALERIA DE CERTIFICADOS------------------------>
+          <div class="container text-center proyectos-contenedor">
+            <div class="row">
+              <!---------------------------CERTIFICADO 1-------------------------------------->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="certificado desarrollo web.jpg" alt="calculadora">
+                  <div class="overlay">
+                    <p>Certificado de Desarrollo web profesional</p>
+                    <div class="iconos-contenedor justify-content-center">
+                      <a href="https://www.udemy.com/certificate/UC-a51d569a-fbcb-479b-9de4-ac4c9bf8b2c2/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--------------------------CERTIFICADO 2------------------------------------>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="UC-17f86352-248d-475e-899a-63dc8e2cc242 (1).jpg" alt="calculadora">
+                  <div class="overlay">
+                    <p>Certificado de programador salesforce principiante</p>
+                    <div class="iconos-contenedor justify-content-center">
+                      <a href="https://www.udemy.com/certificate/UC-17f86352-248d-475e-899a-63dc8e2cc242/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!---------------------------CERTIFICADO 1-------------------------------------->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="intermedio.jpg" alt="calculadora">
+                  <div class="overlay">
+                    <p>Certificado de programador salesforce intermedio</p>
+                    <div class="iconos-contenedor justify-content-center">
+                      <a href="https://www.udemy.com/certificate/UC-d55fbe36-7b54-4260-8f5c-17da504705a4/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!----------------PROYECTOS------------------------------------------>
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro "> Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion"> Estos son algunos poyectos que he creado recientemente...</h3>
+      <!------------GALERIA DE PROYECTOS------------------------>
+      <div class="container text-center proyectos-contenedor">
+        <div class="row justify-content-center">
+          <!---------------------------PROYECTO 1-------------------------------------->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="calc.jpg" alt="calculadora">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LautaroDev7/Calculadora" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://lautarodev7.github.io/Calculadora/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------CONTACTO-------------------------->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container rectangulo text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que se vuelva realidad
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:lauta.garay73@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------FOOTER-------------------------->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <i class="bi bi-briefcase-fill"></i>
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/LautaroDev7" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.facebook.com/lauta.garay/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lautaro-garay-868775227/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lautaro Garay (2023) &#169;</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
